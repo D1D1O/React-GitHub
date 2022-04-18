@@ -9,7 +9,7 @@ export default function Routes(){
     <BrowserRouter>
       <Routess>
         <Route path="/" exact element={<Main/>}/>
-        <Route path="/repository" exact element={<Repository/>}/>
+        <Route path="/repository/:repository" exact element={<Repository/>}/>
       </Routess>
     </BrowserRouter>
   );
